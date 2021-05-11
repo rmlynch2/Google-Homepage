@@ -1,0 +1,28 @@
+#main-container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    height: 400px;
+    align-content: center;
+}
+
+#logo {
+
+
+}
+
+#search {
+    width: 500px;
+
+}
+
+#submit {
+
+}
+
+#nav-right {
+    float: right;
+} 
+#nav-left {
+    float: left;
+} 
