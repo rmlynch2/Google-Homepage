@@ -2,38 +2,31 @@
 <html>
     <head>
         <title>Google Homepage Project</title>
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav>
-            <div id="nav-bar">
-                <ul id="nav-right">
-                    <li>gmail</li>
-                    <li>images</li>
-                    <li>sign in</li>
-                </ul>
-                <ul id="nav-left">
-                    <li>about</li>
-                    <li>store</li>
-                </ul>
+        <div id="nav">
+            <a class="topLink">Gmail</a>
+            <a class="topLink">Images</a>
+            <a class="topimage"></a>
+        </div>
+        <div id="middle">
+            <div id="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             </div>
-        </nav>
-        <main>
-            <div id="main-container">
-                <div id="logo">
-                    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+            <div id="searchbarcontainer">
+                <input id="searchbar" type="text">
+            </div>
+            <div id="buttons">
+                <div class="button">
+                    Google Search
                 </div>
-                <form id="search">
-                    <input id="searchbar" type="text" autofocus required>
-                    <div id="submit">
-                        <input id="srchbtn" type="submit">
-                        <input id="luckybtn" type="submit">
-                    </div>
-                </form>
+                <div class="button">
+                    I'm Feeling Lucky
+                </div>
             </div>
-        </main>
-        <footer>
-
-        </footer>
+       
+        </div>
+   
     </body>
 </html>
